@@ -25,12 +25,12 @@ public class Palindrome
 
     public static void main(String args[])
     {
-	Scanner stdin = new Scanner(System.in);
-	while(stdin.hasNextLine())
+	    Scanner stdin = new Scanner(System.in);
+	    while(stdin.hasNextLine())
     	{
         	String line = stdin.nextLine();
         	System.out.print(line +": ");
-		boolean t= isPalindrome(line);
+		    boolean t= isPalindrome(line);
         	System.out.println(t);
     	}
 
